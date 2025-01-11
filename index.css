@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECFDF5;
+    width: 550px;
+    height: 550px;
+    flex-flow: column nowrap;
+    margin-top: 12.5%;
+    border: none;
+    border-radius: 1rem;
+}
+
+h1 {
+    font-family: Karla;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: -0.05em;
+    text-align: left;
+    width: 400px;
+    height: 80px;
+    top: 115px;
+    left: 52px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+p {
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    margin-top: -1rem;
+
+}
+
+.border {
+    padding-bottom: 7.5rem;
+}
+
+.passwords {
+    width: 211px;
+    height: 39px;
+    top: 396px;
+    left: 52px;
+    gap: 0px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #273549;
+    margin-top: -2.875rem;
+    color: #ECFDF5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.passwords > p {
+    padding-top: 2.25rem;
+}
+
+article {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    padding-bottom: 2.5rem;
+    width: 400px;
+    margin-top: -0.5rem;
+}
+
+span {
+    color: #10B981;
+
+}
+
+button {
+    /* border: none; */
+    width: Hug (191px)px;
+    height: Hug (42px)px;
+    top: 284px;
+    left: 52px;
+    padding: 9px 17px 9px 15px;
+    gap: 12px;
+    border-radius: 6px;
+    opacity: 0px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    background: #10B981;
+
+}
+
+.refresh {
+    cursor: pointer;
+}
+
+.refresh::hover{
+    color: #1e1ae7;
+}
