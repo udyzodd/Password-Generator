@@ -1,2 +1,2 @@
-# test-project-repo
+# Password Generator
  Learning Git
